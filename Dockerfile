@@ -12,6 +12,6 @@ RUN apk add --no-cache python3 && \
     rm -r /root/.cache && \
 	mkdir /plexdata && \
     cd /plexdata && \
-    git clone --branch v0.1.2 https://github.com/KurzonDax/Plex-to-InfluxDB-Extended.git .
+    git clone --branch v0.1.3 https://github.com/KurzonDax/Plex-to-InfluxDB-Extended.git .
 	
 CMD python /plexdata/plexInfluxdbCollector.py --config /plexdata/config.ini
