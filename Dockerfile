@@ -1,6 +1,6 @@
 FROM alpine:3.7
 MAINTAINER kurzondax
-
+# Version: 0.1.3
 RUN apk add --no-cache python3 && \
     python3 -m ensurepip && \
     rm -r /usr/lib/python*/ensurepip && \

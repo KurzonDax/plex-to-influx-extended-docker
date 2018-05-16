@@ -90,7 +90,7 @@ services:
 
 ## Issues
 
-Any issues with the getting the docker container running should be logged under the github
+Any issues with getting the docker container running should be logged under the github
 repo for the [docker image](https://github.com/KurzonDax/plex-to-influx-extended-docker/issues).
 
 Issues with the python script itself should be logged under the
